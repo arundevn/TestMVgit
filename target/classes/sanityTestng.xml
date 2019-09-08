@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Flipkart">
+
+<!-- 	<listeners> -->
+<!-- 		<listener class-name="com.reports.ExtentReportNG" /> -->
+<!-- 	</listeners>	 -->
+	<!-- <listener class-name="src/main/resources/com.reports.ExtentReportNG" /> -->
+
+	<test name="FlipkartTest" preserve-order="true">
+		<classes>
+			<class name="com.smoketest.FlipkartParam" />
+		</classes>
+	</test>
+	<!-- <test name="FlipkartCartTests" preserve-order="true"> <classes> <class 
+		name="com.smoketest.FlipkartCart"/> </classes> </test> -->
+</suite> <!-- Suite -->

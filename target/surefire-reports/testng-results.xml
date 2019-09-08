@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Flipkart" duration-ms="24449" started-at="2019-09-06T13:29:54 IST" finished-at="2019-09-06T13:30:19 IST">
+    <groups>
+    </groups>
+    <test name="FlipkartTest" duration-ms="24449" started-at="2019-09-06T13:29:54 IST" finished-at="2019-09-06T13:30:19 IST">
+      <class name="com.smoketest.FlipkartParam">
+        <test-method status="PASS" signature="initializeObjs()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="initializeObjs" is-config="true" duration-ms="7894" started-at="2019-09-06T13:29:54 IST" finished-at="2019-09-06T13:30:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeObjs -->
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="launchUrl" is-config="true" duration-ms="4391" started-at="2019-09-06T13:30:02 IST" finished-at="2019-09-06T13:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="testBefore()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="testBefore" is-config="true" duration-ms="1" started-at="2019-09-06T13:30:07 IST" finished-at="2019-09-06T13:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBefore -->
+        <test-method status="PASS" signature="popupTestinParam()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="popupTestinParam" duration-ms="230" started-at="2019-09-06T13:30:07 IST" finished-at="2019-09-06T13:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popupTestinParam -->
+        <test-method status="PASS" signature="testAfter()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="testAfter" is-config="true" duration-ms="0" started-at="2019-09-06T13:30:07 IST" finished-at="2019-09-06T13:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfter -->
+        <test-method status="PASS" signature="testBefore()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="testBefore" is-config="true" duration-ms="0" started-at="2019-09-06T13:30:07 IST" finished-at="2019-09-06T13:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBefore -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="verifyTitle" duration-ms="10" started-at="2019-09-06T13:30:07 IST" depends-on-methods="com.smoketest.FlipkartParam.popupTestinParam" finished-at="2019-09-06T13:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="testAfter()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="testAfter" is-config="true" duration-ms="0" started-at="2019-09-06T13:30:07 IST" finished-at="2019-09-06T13:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfter -->
+        <test-method status="PASS" signature="testBefore()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="testBefore" is-config="true" duration-ms="1" started-at="2019-09-06T13:30:07 IST" finished-at="2019-09-06T13:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBefore -->
+        <test-method status="PASS" signature="testPhone()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="testPhone" duration-ms="10739" started-at="2019-09-06T13:30:07 IST" depends-on-methods="com.smoketest.FlipkartParam.verifyTitle" finished-at="2019-09-06T13:30:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhone -->
+        <test-method status="PASS" signature="testAfter()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="testAfter" is-config="true" duration-ms="0" started-at="2019-09-06T13:30:18 IST" finished-at="2019-09-06T13:30:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smoketest.FlipkartParam@22eeefeb]" name="tearDown" is-config="true" duration-ms="1091" started-at="2019-09-06T13:30:18 IST" finished-at="2019-09-06T13:30:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.smoketest.FlipkartParam -->
+    </test> <!-- FlipkartTest -->
+  </suite> <!-- Flipkart -->
+</testng-results>
